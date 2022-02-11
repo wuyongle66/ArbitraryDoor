@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="#FFFFFF"
+    tools:context=".relaxation.RelaxationMyself"
+
+    >
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_pager_myself"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        >
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_title_myself"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="109dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:tabTextAppearance="@style/TabLayoutTextStyle"
+        app:tabIndicatorGravity="center"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="2dp"
+        app:tabIndicator="@drawable/indicator_relaxation"
+        app:tabMode="scrollable"
+        app:tabRippleColor="@android:color/transparent"
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+</RelativeLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/valley"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/valley_background"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="219"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="69"
+            />
+
+    <Button
+        android:id="@+id/valley_personal_center"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_weight="44"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/shape_spring"
+        android:drawableLeft="@drawable/valley_head_portrait"
+        android:text="个人中心"
+        android:paddingLeft="7dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#403F3D"
+        android:drawablePadding="2dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+
+    <Button
+        android:id="@+id/valley_my_mail"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_weight="44"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/shape_spring"
+        android:drawableLeft="@drawable/valley_mail"
+        android:text="我的邮箱"
+        android:paddingLeft="7dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#403F3D"
+        android:drawablePadding="2dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+
+    <Button
+        android:id="@+id/valley_stress_relaxation"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_weight="44"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/shape_spring"
+        android:drawableLeft="@drawable/valley_stress_relaxation"
+        android:text="解压放松"
+        android:paddingLeft="7dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#403F3D"
+        android:drawablePadding="2dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="23"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:id="@+id/valley_window"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="462"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:background="@drawable/valley_window"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.94"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="164dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/valley_cat"
+        />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="223"
+        >
+    <Button
+        android:id="@+id/valley_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/valley_button"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/valley_hengxian"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"
+        />
+    <RelativeLayout
+        android:id="@+id/valley_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/valley_hengxian"
+        android:background="@drawable/shape_valley_buttom"
+        />
+    </RelativeLayout>
+</LinearLayout>

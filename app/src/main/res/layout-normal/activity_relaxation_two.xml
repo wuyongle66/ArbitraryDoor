@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/relaxation_two"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="538"
+        >
+    <Button
+        android:id="@+id/return_relaxation_two"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:alpha="0"
+        />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="215">
+
+        <RelativeLayout
+            android:layout_width="324.94dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/relativelayoutrelaxation_two"
+            >
+            <TextView
+                android:id="@+id/breathe_relaxation_text"
+                android:layout_width="94dp"
+                android:layout_height="17dp"
+                android:text="呼吸放松法音频"
+                android:layout_above="@+id/breathe_music_seek_bar"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="35dp"
+                android:textSize="13sp"
+                android:textStyle="normal"
+                android:textColor="#3E3E3E"
+                />
+            <SeekBar
+                android:id="@+id/breathe_music_seek_bar"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:thumb="@drawable/thumb"
+                style="@style/CustomSeekbarStyle_breathe"
+                android:progress="20"
+                />
+
+            <TextSwitcher
+                android:id="@+id/breathe_text_switcher"
+                android:layout_width="190dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="24dp"
+                android:layout_below="@+id/breathe_music_seek_bar">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:text="00:00/2:00"
+                    android:textSize="8sp"
+                    android:gravity="right"
+                    android:textColor="#3A3D3F"/>
+            </TextSwitcher>
+            <ImageView
+                android:id="@+id/breathe_playing_play"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/breathe_music_seek_bar"
+                android:src="@drawable/pause"
+                >
+
+            </ImageView>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1685"
+        />
+</LinearLayout>

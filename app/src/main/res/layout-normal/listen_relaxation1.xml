@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/listen_relaxation2"
+    >
+
+    <Button
+        android:id="@+id/return_himself1"
+        android:layout_width="24dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:alpha="0"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="487"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="176"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            />
+        <Button
+            android:id="@+id/match_himself1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="176"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:gravity="center"
+            android:textColor="#525151"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="139"
+        />
+
+</LinearLayout>

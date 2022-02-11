@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/listen_relaxation3"
+    >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="91"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="34"
+            />
+    <Button
+        android:id="@+id/return_himself2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="30"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/return_relaxation"
+        />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="131"
+            />
+    <Button
+        android:id="@+id/friend_himself"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="25"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/return_relaxation2"
+        />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="131"
+            />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="30"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/return_relaxation1"
+        />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="805"
+        />
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relaxation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/selecte_background"
+    tools:context=".relaxation.Relaxation"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+    >
+    <ImageView
+        android:id="@+id/return_relaxation"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="18dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/return_mymail"
+        />
+    <Button
+        android:id="@+id/return_relaxation1"
+        android:layout_width="41dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="49dp"
+        android:layout_toRightOf="@+id/return_relaxation"
+        android:text="返回"
+        android:background="@android:color/transparent"
+        android:textColor="#101010"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="28"
+        />
+    <Button
+        android:id="@+id/time_relaxation"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_weight="93"
+        android:background="@drawable/time_relaxation"
+        android:text="时间刻录"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#525151"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="524"
+        />
+    <Button
+        android:id="@+id/himself_relaxation"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_weight="93"
+        android:background="@drawable/himself_relaxation"
+        android:text="他人倾述"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="#101010"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="106"
+        />
+
+</LinearLayout>

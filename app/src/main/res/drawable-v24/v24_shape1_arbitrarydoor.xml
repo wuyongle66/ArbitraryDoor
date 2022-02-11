@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#223A3D3F" />
+            <corners
+                android:radius="1dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:bottomLeftRadius="20dp"
+                />
+        </shape>
+    </item>
+    <!--
+        android:bottom、
+        android:end、
+        android:start、
+        android:top是距离下右左上的间距
+    -->
+    <item
+        android:bottom="16px"
+        android:end="2px"
+        android:start="2px"
+        android:top="2px">
+        <shape android:shape="rectangle">
+            <solid android:color="#F287CEFA" />
+            <corners
+                android:radius="1dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:bottomLeftRadius="20dp"
+                />
+        </shape>
+    </item>
+</layer-list>
+
+
+    <!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:shape="rectangle">-->
+<!--    &lt;!&ndash; rectangle表示为矩形 &ndash;&gt;-->
+
+<!--    &lt;!&ndash; 填充的颜色 &ndash;&gt;-->
+<!--    <solid android:color="#87CEFA" />-->
+
+<!--    &lt;!&ndash; 边框的颜色和粗细 &ndash;&gt;-->
+<!--    <stroke-->
+<!--        android:width="1dp"-->
+<!--        android:color="#9CFFFFFF"-->
+<!--        />-->
+
+<!--    &lt;!&ndash; android:radius 圆角的半径 &ndash;&gt;-->
+<!--    <corners-->
+<!--        android:radius="1dp"-->
+<!--        android:topLeftRadius="20dp"-->
+<!--        android:topRightRadius="20dp"-->
+<!--        android:bottomRightRadius="20dp"-->
+<!--        android:bottomLeftRadius="20dp"-->
+<!--        />-->
+
+<!--</shape>-->

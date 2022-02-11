@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/summer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/summer_background"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="219"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="69"
+        />
+
+    <Button
+        android:id="@+id/summer_personal_center"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_weight="44"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/shape_spring"
+        android:drawableLeft="@drawable/summer_head_portrait"
+        android:text="个人中心"
+        android:paddingLeft="7dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#403F3D"
+        android:drawablePadding="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        />
+
+    <Button
+        android:id="@+id/summer_my_mail"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_weight="44"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/shape_spring"
+        android:drawableLeft="@drawable/summer_mail"
+        android:text="我的邮箱"
+        android:paddingLeft="7dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#403F3D"
+        android:drawablePadding="2dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        />
+    <Button
+        android:id="@+id/summer_stress_relaxation"
+        android:layout_width="121dp"
+        android:layout_height="0dp"
+        android:layout_weight="44"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/shape_spring"
+        android:drawableLeft="@drawable/summer_stress_relaxation"
+        android:text="解压放松"
+        android:paddingLeft="7dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#403F3D"
+        android:drawablePadding="2dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="23"
+            />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="462"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:background="@drawable/summer_window"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.89"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="164dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/summer_cat"
+        />
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="202"
+        >
+    <Button
+        android:id="@+id/summer_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/summer_button"
+        >
+    </Button>
+    <Button
+        android:id="@+id/summer_hengxian"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#FFFFFF"
+        />
+    <RelativeLayout
+        android:id="@+id/summer_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/summer_hengxian"
+        android:background="@drawable/shape_summer_buttom"
+        />
+
+
+    </RelativeLayout>
+</LinearLayout>

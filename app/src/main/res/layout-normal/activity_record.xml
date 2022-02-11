@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEDBC"
+
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".record.Record"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="86"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="26"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="48"
+                />
+        <Button
+            android:id="@+id/record_return"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="38"
+            android:layout_gravity="bottom"
+            android:background="@drawable/v24_shape1_record1"
+            android:text="返回"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/return_mymail"
+            android:paddingLeft="10dp"
+            android:alpha="0.9"
+            android:textColor="#101010"
+            android:elevation="10dp"
+            >
+        </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="186"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="48"
+            />
+        <Button
+            android:id="@+id/record_keep"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="38"
+            android:layout_gravity="bottom"
+            android:background="@drawable/v24_shape1_record"
+            android:text="保存"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/return_mymail1"
+            android:paddingLeft="10dp"
+            android:textColor="#101010" >
+        </Button>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="53"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="41"
+            />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="130"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="29"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="24"
+            android:background="@android:color/transparent"
+            android:text="今日情绪记录"
+            android:layout_gravity="bottom"
+            android:textAllCaps="false"
+            android:textColor="#403F3D"
+            android:textStyle="normal"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="34"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="26"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="27"
+                android:src="@drawable/seabear_return" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="212"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="89"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="73"
+        >
+        <ImageView
+            android:id="@+id/meet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:src="@drawable/return1"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            />
+
+    <ImageView
+        android:id="@+id/sleepy"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="66"
+        android:layout_gravity="bottom"
+        android:src="@drawable/return2"
+        />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            />
+
+    <ImageView
+        android:id="@+id/doubt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="68"
+        android:layout_gravity="bottom"
+        android:src="@drawable/return3"
+        />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            />
+
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:layout_gravity="bottom"
+        android:src="@drawable/return4"
+        />
+
+    <ImageView
+        android:id="@+id/puzzle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="68"
+        android:layout_gravity="bottom"
+        android:src="@drawable/return5"
+        />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="51"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="41"
+            />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="130"
+        android:background="@android:color/transparent"
+        android:text="今日事件记录"
+        android:layout_gravity="bottom"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textStyle="normal"
+        android:textSize="19sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_weight="34"
+        android:layout_gravity="bottom"
+        android:src="@drawable/seabear_return"
+        />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="212"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="87"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="55"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="26"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="55"
+            android:layout_gravity="bottom"
+            android:alpha="0.75"
+            android:scaleType="center"
+            android:src="@drawable/record1"
+            />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="46"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            />
+    <ImageButton
+        android:id="@+id/commemoration"
+        android:alpha="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="46"
+        android:background="@drawable/return_shape2"
+        android:textColor="@color/black"
+        android:scaleType="center"
+        android:src="@drawable/record2"
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="46"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            />
+
+    <ImageButton
+        android:id="@+id/travel"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="46"
+        android:background="@drawable/return_shape2"
+        android:alpha="0.7"
+        android:scaleType="center"
+        android:src="@drawable/record3"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="46"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            />
+
+
+    <ImageButton
+        android:id="@+id/overtime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="46"
+        android:layout_gravity="bottom"
+        android:background="@drawable/return_shape2"
+        android:alpha="0.7"
+        android:scaleType="center"
+        android:src="@drawable/record4"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            />
+
+     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="46"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            />
+
+
+    <ImageButton
+        android:id="@+id/crossed_love"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="46"
+        android:layout_gravity="bottom"
+        android:alpha="0.7"
+        android:background="@drawable/return_shape2"
+        android:textColor="@color/black"
+        android:scaleType="center"
+        android:src="@drawable/record5"
+        />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="5"
+             />
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="110"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="29"
+            />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="46"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            />
+        <ImageButton
+            android:id="@+id/hobby"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="46"
+            android:background="@drawable/return_shape2"
+            android:textColor="@color/black"
+            android:alpha="0.7"
+            android:src="@drawable/record6"
+            android:scaleType="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13"
+            android:text="爱好"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="22"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="46"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13"
+            android:text="纪念日"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            />
+        <ImageButton
+            android:id="@+id/sleep_record"
+            android:alpha="0.7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="46"
+            android:background="@drawable/return_shape2"
+            android:textColor="@color/black"
+            android:src="@drawable/record7"
+            android:scaleType="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13"
+            android:text="睡觉"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="22"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="46"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="13"
+                android:text="旅行"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="12"
+                />
+            <ImageButton
+                android:id="@+id/food"
+                android:alpha="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="46"
+                android:background="@drawable/return_shape2"
+                android:textColor="@color/black"
+                android:src="@drawable/record8"
+                android:scaleType="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="13"
+                android:text="美食"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="22"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="46"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="13"
+                android:text="加班"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="12"
+                />
+            <ImageButton
+                android:id="@+id/read"
+                android:alpha="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="46"
+                android:background="@drawable/return_shape2"
+                android:textColor="@color/black"
+                android:src="@drawable/record9"
+                android:scaleType="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="13"
+                android:text="阅读"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="22"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="32"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="46"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="13"
+                android:text="失恋"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="12"
+                />
+            <ImageButton
+                android:id="@+id/sport"
+                android:alpha="0.7"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="46"
+                android:background="@drawable/return_shape2"
+                android:textColor="@color/black"
+                android:src="@drawable/record10"
+                android:scaleType="center"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="13"
+                android:text="运动"
+                android:textSize="10sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="22"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="27"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="140"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="28"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="358"
+            android:orientation="vertical"
+            >
+        <EditText
+            android:id="@+id/textView_record"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="118"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/v24_shape1_return1"
+            android:alpha="0.8"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:gravity="left"
+            android:hint="详细记录......"
+            android:textSize="13sp"
+            >
+        </EditText>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="22"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="28"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="257"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="29"
+            />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="124"
+        android:orientation="vertical"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="188"
+        android:background="@drawable/v24_shape1_return1"
+        android:alpha="0.8">
+
+        <ImageView
+            android:id="@+id/relativelayout_imageview"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="center"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape2"
+            android:textColor="@color/black"
+            android:alpha="0.75"
+            android:src="@drawable/record1"
+            />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="14dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/relativelayout_imageview"
+            android:background="@android:color/transparent"
+            android:text="添加照片"
+            android:textAllCaps="false"
+            android:textColor="#3A3D3F"
+            android:textStyle="normal"
+            android:textSize="12dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="101"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="146"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="76"
+            />
+        <ImageView
+            android:layout_width="146dp"
+            android:layout_height="0dp"
+            android:layout_weight="181"
+            android:src="@drawable/record_cat"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="14"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="23"
+        />
+</LinearLayout>

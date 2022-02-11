@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2FFFFFF"
+    android:id="@+id/record_keep_background"
+    >
+    <RelativeLayout
+        android:id="@+id/record_keep_button"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:background="@drawable/record_keep_background"
+        android:layout_centerInParent="true"
+        android:alpha="1"
+        >
+        <ImageView
+            android:id="@+id/record_keep_pen"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:src="@drawable/record_keep_pen"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/record_keep_text"
+            android:layout_width="140dp"
+            android:layout_height="24dp"
+            android:text="情绪记录完成！"
+            android:textSize="20sp"
+            android:layout_below="@+id/record_keep_pen"
+            android:layout_marginTop="22sp"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

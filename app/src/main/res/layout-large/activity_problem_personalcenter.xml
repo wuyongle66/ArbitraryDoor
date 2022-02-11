@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1D4FD"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".personalcenter.Problem_Personalcenter">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="69"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="18"
+            />
+
+    <Button
+        android:id="@+id/return_problem"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="24"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/return_mymail" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            />
+
+    <Button
+        android:id="@+id/return_problem1"
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="38"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:text="返回"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="228"
+            />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_weight="74"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:text="反馈记录"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="28"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="51"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35"
+            />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="87"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:text="问题类别"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/problem1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="271"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="68"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="23"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="86"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="57"
+        android:layout_gravity="bottom"
+        android:text="功能建议"
+        android:textSize="16sp"
+        android:background="@drawable/button_problem"
+        android:textColor="#101010"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="86"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="57"
+                android:layout_gravity="bottom"
+                android:text="BUG反馈"
+                android:textSize="16sp"
+                android:background="@drawable/button_problem"
+                android:textColor="#101010"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="86"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="57"
+                android:layout_gravity="bottom"
+                android:text="申诉举报"
+                android:textSize="16sp"
+                android:background="@drawable/button_problem"
+                android:textColor="#101010"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="28"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="60"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35"
+            />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="88"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:text="问题描述"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="25"
+        android:layout_gravity="bottom"
+        android:src="@drawable/problem2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="273"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="217"
+        android:orientation="horizontal"
+        >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="366"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="206"
+        >
+        <EditText
+            android:id="@+id/problem_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/feedback_problem"
+            android:gravity="left"
+            android:hint="上传相关截图更方便解决问题哦~"
+            android:textColor="#000000"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="35dp"
+            android:alpha="0.7"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/problem3"
+                android:scaleType="center"
+                />
+        </androidx.cardview.widget.CardView>
+
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/problem4"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="11"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35"
+            />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="88"
+        android:layout_gravity="bottom"
+        android:background="@android:color/transparent"
+        android:text="联系方式"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="24dp"
+        android:layout_weight="24"
+        android:layout_gravity="bottom"
+        android:src="@drawable/problem7" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="272"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="85"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="22"
+            />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="371"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:background="@drawable/single_input_problem"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                />
+            <EditText
+                android:id="@+id/single_input_problem"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="351"
+                android:layout_gravity="bottom"
+                android:background="@null"
+                android:gravity="center|left"
+                android:hint="单行输入"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="21"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="237"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="65"
+            />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="284"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="41"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="206"
+        android:layout_gravity="bottom"
+        android:src="@drawable/problem6"
+        android:textColor="@color/black" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="65"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="54"
+        />
+</LinearLayout>

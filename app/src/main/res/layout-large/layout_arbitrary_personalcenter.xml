@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".personalcenter.Arbitrary_Personalcenter"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.491"
+        android:background="@drawable/v24_shape2"
+        >
+    <Button
+        android:id="@+id/return_arbitrary"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="55dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/return_mymail"
+        />
+    <Button
+        android:id="@+id/return_arbitrary1"
+        android:layout_width="36dp"
+        android:layout_height="24dp"
+        android:layout_toRightOf="@+id/return_arbitrary"
+        android:layout_marginTop="55dp"
+        android:background="@android:color/transparent"
+        android:text="返回"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textStyle="normal"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/arbitrary_icon"
+        android:layout_centerInParent="true"
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:src="@drawable/arbitrary2_personal"
+        />
+
+    <Button
+        android:id="@+id/arbitrary_version"
+        android:layout_width="117dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="18px"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/arbitrary_icon"
+        android:text="Version 2.0.1"
+        android:textAllCaps="false"
+        android:textColor="#3A3D3F"
+        android:textStyle="normal"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/updata_arbitrary"
+        android:layout_width="167dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/arbitrary_version"
+        android:background="@drawable/v24_shape1_arbitrarydoor_large"
+        android:text="检查更新"
+        android:textColor="#101010"
+        android:textSize="20sp"
+        />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.51"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="248"
+            />
+    <ImageView
+        android:id="@+id/arbitrary_icon2"
+        android:layout_gravity="center"
+        android:layout_width="157dp"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:layout_weight="130"
+        android:src="@drawable/arbitrary1_personal"
+        />
+    <Button
+        android:id="@+id/use_arbitrary"
+        android:layout_width="154dp"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:layout_gravity="center"
+        android:layout_below="@+id/arbitrary_icon2"
+        android:background="@android:color/transparent"
+        android:text="隐私协议 |  用户协议"
+        android:textColor="#101010"
+        android:textStyle="normal"
+        android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="57"
+            />
+    </LinearLayout>
+</LinearLayout>

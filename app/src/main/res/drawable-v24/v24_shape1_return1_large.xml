@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#21000000" />
+            <corners
+                android:radius="1dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:bottomLeftRadius="20dp"
+                />
+        </shape>
+    </item>
+    <!--
+    argb rgba9CFFFFFF
+        android:bottom、
+        android:end、
+        android:start、
+        android:top是距离下右左上的间距
+    -->
+    <item
+        android:bottom="2px"
+        android:end="0px"
+        android:start="2px"
+        android:top="1px">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners
+                android:radius="1dp"
+                android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:bottomLeftRadius="20dp"
+                />
+        </shape>
+    </item>
+</layer-list>
